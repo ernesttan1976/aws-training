@@ -1,6 +1,9 @@
 # Lab 08 — Diagnose production-style failures
 
-**Status:** Planned  
-**DVA-C03 mapping:** Domain 4, Tasks 4.1 and 4.2 — root-cause analysis, logging, monitoring, and observability.
+**Status:** Prepared — gated; Lab 01 remains active pending learner evidence and assessment
+**Exercise when activated:** Level 1 — Guided troubleshooting
+**Region:** `ap-southeast-1` (Singapore), subject to service availability and the approved plan
 
-This folder will hold the assignment and its supporting artifacts when Lab 08 becomes active. Planned focus: diagnose a deliberately faulty AWS application using logs, metrics, traces, and deployment output. No resources should be provisioned from this placeholder.
+Investigate a deliberately faulty development deployment of the Order Check serverless API. Correlate structured application logs, CloudWatch metrics and alarms, X-Ray traces, and CloudFormation/SAM deployment output; identify causes, apply minimal fixes, and prove recovery with bounded synthetic requests. Lab 08 is prepared for later use; Lab 01 remains active. No AWS resources should be created until the curriculum gate is reached and the learner explicitly approves the reviewed plan and cost.
+
+See [`LAB.md`](LAB.md) for the assignment, [`HINTS.md`](HINTS.md) for progressive Level 1 guidance, [`TESTS.md`](TESTS.md) for validation and evidence, [`CLEANUP.md`](CLEANUP.md) for resource removal, [`LEARNING.md`](LEARNING.md) for learner reflections, and [`COMPETENCY.md`](COMPETENCY.md) for the assessment record.
