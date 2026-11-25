@@ -18,14 +18,14 @@ Each lab has four exercise levels—guided implementation, independent implement
 | 06 | [Package and test an AWS application](labs/06-package-and-test/README.md) | Domain 3 — Tasks 3.1 and 3.2 (SAM artifacts, environment configuration, test events, automated validation, AI-assisted testing) | **Prepared — gated** |
 | 07 | [Release safely with CI/CD](labs/07-cicd-safe-releases/README.md) | Domain 3 — Task 3.3 (IaC, pipeline stages, deployment strategies, rollback, source control) | **Prepared — gated** |
 | 08 | [Diagnose production-style failures](labs/08-troubleshooting-observability/README.md) | Domain 4 — Tasks 4.1 and 4.2 (integration/deployment troubleshooting, logs, metrics, traces, alerts) | **Prepared — gated** |
-| 09 | [Optimize a working AWS application](labs/09-application-optimization/README.md) | Domain 4 — Task 4.3 (performance, concurrency, messaging, caching, cost and resource optimization) | Planned |
+| 09 | [Optimize a working AWS application](labs/09-application-optimization/README.md) | Domain 4 — Task 4.3 (performance, concurrency, caching, cost and resource optimization) | **Prepared — gated** |
 
 ## Current progress
 
 - **Active:** Lab 01, Level 1 — guided implementation.
 - **Evidence:** No learner implementation or assessment evidence has been submitted yet.
 - **Next gate:** Complete the active lab, submit runtime evidence, and explain the architecture and failure behavior. The next lab is selected after assessment.
-- Labs 03–08 are prepared for later use; none is active until the preceding labs and assessment gates are completed.
+- Labs 03–09 are prepared for later use; none is active until the preceding labs and assessment gates are completed.
 
 ## Official exam framework
 
