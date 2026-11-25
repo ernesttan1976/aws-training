@@ -1,6 +1,9 @@
 # Lab 05 — Managed AI service integration with privacy controls
 
-**Status:** Planned  
-**DVA-C03 mapping:** Domain 1, Task 1.1; Domain 2, Task 2.3 — develop with AWS AI services and mitigate integration risks.
+**Status:** Prepared — gated; Lab 01 remains active
+**Exercise when activated:** Level 1 — Guided implementation
+**Region:** `ap-southeast-1` (Singapore)
 
-This folder will hold the assignment and its supporting artifacts when Lab 05 becomes active. Planned focus: make a managed AI service call with scoped access, data minimization, and safe handling of inputs, outputs, and logs. Cost and service availability will be checked before activation. No resources should be provisioned from this placeholder.
+Build a small Node.js application that calls Amazon Comprehend `DetectPiiEntities` with AWS SDK for JavaScript v3, redacts detected spans before any output, and demonstrates least-privilege access and privacy-aware handling using synthetic data only.
+
+See [LAB.md](LAB.md) for the assignment and acceptance criteria, [HINTS.md](HINTS.md) for progressive Level 1 guidance, [TESTS.md](TESTS.md) for validation, and [CLEANUP.md](CLEANUP.md) for cleanup. No resources have been provisioned. Do not begin until the curriculum progression gate is open and provisioning/API-call costs are explicitly approved.
