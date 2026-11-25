@@ -1,0 +1,39 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+!.env.sample
+.aws/
+
+# JavaScript / TypeScript
+node_modules/
+dist/
+coverage/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# AWS build and deployment output
+.aws-sam/
+.serverless/
+cdk.out/
+
+# Terraform state and local working data
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+
+# Local tooling and OS files
+.DS_Store
+.idea/
+.vscode/
