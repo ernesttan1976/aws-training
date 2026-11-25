@@ -1,6 +1,18 @@
 # Lab 03 — Secure application access and configuration
 
-**Status:** Planned  
-**DVA-C03 mapping:** Domain 2, Tasks 2.1 and 2.2 — authentication/authorization, encryption, and sensitive-data management.
+**Status:** Prepared — gated; Lab 01 remains active and Lab 03 is not yet the current assignment.
 
-This folder will hold the assignment and its supporting artifacts when Lab 03 becomes active. Planned focus: programmatic AWS access, least-privilege roles/resource policies, encrypted configuration, and managed secrets. No resources should be provisioned from this placeholder.
+**Current exercise when activated:** Level 1 — Guided implementation
+
+**DVA-C03 mapping:** Domain 2, Tasks 2.1 and 2.2.
+
+Lab 03 was authored on request. Continue through the curriculum in order; preparation is not evidence of completion or permission to skip an assessment gate. No AWS resources have been provisioned.
+
+## Lab artifacts
+
+- [Assignment and exercise levels](LAB.md)
+- [Progressive hints](HINTS.md)
+- [Validation and evidence checklist](TESTS.md)
+- [Cleanup and verification](CLEANUP.md)
+- [Learner journal](LEARNING.md)
+- [Competency record](COMPETENCY.md)

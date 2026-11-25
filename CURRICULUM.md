@@ -4,7 +4,7 @@
 **Region preference:** `ap-southeast-1` when services are available  
 **Progression:** One lab at a time; assess the learner before moving on.
 
-Each lab has four exercise levels—guided implementation, independent implementation, troubleshooting, and optimization. Its assignment and supporting artifacts live together in its numbered folder under `labs/`. Only the active lab is fully authored; later labs are curriculum entries and will be prepared as the learner progresses.
+Each lab has four exercise levels—guided implementation, independent implementation, troubleshooting, and optimization. Its assignment and supporting artifacts live together in its numbered folder under `labs/`. A lab may be prepared on request before it becomes active; preparation does not change the one-lab-at-a-time progression gate or mark skills demonstrated.
 
 ## Lab sequence
 
@@ -12,7 +12,7 @@ Each lab has four exercise levels—guided implementation, independent implement
 |---:|---|---|---|
 | 01 | [Reliable asynchronous ticket intake](labs/01-asynchronous-ticket-intake/LAB.md) | Domain 1 — Development with AWS Services; Tasks 1.1 and 1.2 (SQS, Lambda, SDKs, event-driven processing, retries) | **Active — Level 1** |
 | 02 | [Data access patterns and lifecycle management](labs/02-data-access-patterns-lifecycle/README.md) | Domain 1 — Task 1.3 (DynamoDB/S3 selection, access patterns, indexes, TTL, lifecycle, caching) | Planned |
-| 03 | [Secure application access and configuration](labs/03-secure-access-configuration/README.md) | Domain 2 — Tasks 2.1 and 2.2 (AWS credentials, IAM roles and resource permissions, encryption, secrets) | Planned |
+| 03 | [Secure application access and configuration](labs/03-secure-access-configuration/README.md) | Domain 2 — Tasks 2.1 and 2.2 (AWS credentials, IAM roles and resource permissions, encryption, secrets) | **Prepared — gated** |
 | 04 | [Authenticated application API](labs/04-authenticated-application-api/README.md) | Domains 1 and 2 — API development and authentication/authorization (API Gateway, application identity, least privilege) | Planned |
 | 05 | [Managed AI service integration with privacy controls](labs/05-managed-ai-privacy/README.md) | Domains 1 and 2 — Task 1.1 and Task 2.3 (AWS SDK integration, data privacy, input/output handling, access control) | Planned |
 | 06 | [Package and test an AWS application](labs/06-package-and-test/README.md) | Domain 3 — Tasks 3.1 and 3.2 (SAM artifacts, environment configuration, test events, automated validation, AI-assisted testing) | Planned |
@@ -25,6 +25,7 @@ Each lab has four exercise levels—guided implementation, independent implement
 - **Active:** Lab 01, Level 1 — guided implementation.
 - **Evidence:** No learner implementation or assessment evidence has been submitted yet.
 - **Next gate:** Complete the active lab, submit runtime evidence, and explain the architecture and failure behavior. The next lab is selected after assessment.
+- Lab 03 was authored on request; it is not active until the preceding labs and assessment gates are completed.
 
 ## Official exam framework
 
