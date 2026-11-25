@@ -1,6 +1,9 @@
 # Lab 07 — Release safely with CI/CD
 
-**Status:** Planned  
-**DVA-C03 mapping:** Domain 3, Task 3.3 — deploy code with AWS CI/CD services.
+**Status:** Prepared — gated; Lab 01 remains active pending learner evidence and assessment
+**Exercise when activated:** Level 1 — Guided implementation
+**Region:** `ap-southeast-1` (Singapore), subject to service availability and the approved plan
 
-This folder will hold the assignment and its supporting artifacts when Lab 07 becomes active. Planned focus: source-controlled infrastructure and application changes, staged deployment, release strategy, and rollback verification. Cost and required approvals will be established before activation. No resources should be provisioned from this placeholder.
+Build a source-controlled AWS release pipeline for the Order Check serverless API. Automate tests and packaging, deploy to development, gate production promotion with a manual approval, use a Lambda canary deployment, and verify rollback behavior. Lab 07 is prepared for later use; Lab 01 remains active. No AWS resources should be created until the curriculum gate is reached and the learner explicitly approves the reviewed plan and cost.
+
+See [`LAB.md`](LAB.md) for the assignment, [`HINTS.md`](HINTS.md) for progressive Level 1 guidance, [`TESTS.md`](TESTS.md) for validation and evidence, [`CLEANUP.md`](CLEANUP.md) for resource removal, [`LEARNING.md`](LEARNING.md) for learner reflections, and [`COMPETENCY.md`](COMPETENCY.md) for the assessment record.

@@ -16,7 +16,7 @@ Each lab has four exercise levels—guided implementation, independent implement
 | 04 | [Authenticated application API](labs/04-authenticated-application-api/README.md) | Domains 1 and 2 — API development and authentication/authorization (API Gateway, application identity, least privilege) | **Prepared — gated** |
 | 05 | [Managed AI service integration with privacy controls](labs/05-managed-ai-privacy/README.md) | Domains 1 and 2 — Task 1.1 and Task 2.3 (AWS SDK integration, data privacy, input/output handling, access control) | **Prepared — gated** |
 | 06 | [Package and test an AWS application](labs/06-package-and-test/README.md) | Domain 3 — Tasks 3.1 and 3.2 (SAM artifacts, environment configuration, test events, automated validation, AI-assisted testing) | **Prepared — gated** |
-| 07 | [Release safely with CI/CD](labs/07-cicd-safe-releases/README.md) | Domain 3 — Task 3.3 (IaC, pipeline stages, deployment strategies, rollback, source control) | Planned |
+| 07 | [Release safely with CI/CD](labs/07-cicd-safe-releases/README.md) | Domain 3 — Task 3.3 (IaC, pipeline stages, deployment strategies, rollback, source control) | **Prepared — gated** |
 | 08 | [Diagnose production-style failures](labs/08-troubleshooting-observability/README.md) | Domain 4 — Tasks 4.1 and 4.2 (integration/deployment troubleshooting, logs, metrics, traces, alerts) | Planned |
 | 09 | [Optimize a working AWS application](labs/09-application-optimization/README.md) | Domain 4 — Task 4.3 (performance, concurrency, messaging, caching, cost and resource optimization) | Planned |
 
@@ -25,7 +25,7 @@ Each lab has four exercise levels—guided implementation, independent implement
 - **Active:** Lab 01, Level 1 — guided implementation.
 - **Evidence:** No learner implementation or assessment evidence has been submitted yet.
 - **Next gate:** Complete the active lab, submit runtime evidence, and explain the architecture and failure behavior. The next lab is selected after assessment.
-- Labs 03, 04, 05, and 06 were prepared on request; none is active until the preceding labs and assessment gates are completed.
+- Labs 03, 04, 05, 06, and 07 were prepared on request; none is active until the preceding labs and assessment gates are completed.
 
 ## Official exam framework
 
